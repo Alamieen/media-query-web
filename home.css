@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(bgdesktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:-50px;
+    width: 100%;
+    
+    
+    
+}.top{
+    display: flex;
+    width: 100%;
+    float: left;
+}
+.left{
+    flex: 15%;
+    padding: 30px;
+    margin-top: 10px;
+    
+}
+.right{
+    flex: -5%;
+    margin-right: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    align-items: right;
+}
+h3{
+    font-size: 30px;
+    padding: 30px;
+}
+p{
+    padding: 5px;
+    margin: 20px;
+    font-size: 20px;
+    color:lightgray
+}
+button{
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: white;
+    margin-top: 55%;
+}
+.btn2{
+    background-color:  hsl(322, 100%, 66%)
+    ;
+    padding: 12px 30px;
+    margin: 20px;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+img{
+    height: 500px;
+    width: 400px;
+}
